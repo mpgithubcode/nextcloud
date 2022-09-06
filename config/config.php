@@ -6,6 +6,7 @@ $CONFIG = array (
   'trusted_domains' => 
   array (
     0 => '192.168.1.168',
+    1 => 'nextcloud.mperry.net',
   ),
   'datadirectory' => '/var/www/nextcloud/data',
   'dbtype' => 'mysql',
@@ -19,7 +20,6 @@ $CONFIG = array (
   'dbuser' => 'nextcloud',
   'dbpassword' => 'bballmp95',
   'installed' => true,
-  'updater.secret' => '$2y$10$wQDSm36OHt1sPsa5h.zH..Mb0vUSOyqooAlfCjtbwZFlIWpYsT/0q',
   'memcache.local' => '\\OC\\Memcache\\APCu',
   'default_phone_region' => 'US',
   'maintenance' => false,
